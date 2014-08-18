@@ -75,6 +75,11 @@ body
     max-width:2em;
 }
 
+.aboutImages
+{
+    border: transparent 1em;
+}
+
 #outerContainer
 {
    /* fallback */
