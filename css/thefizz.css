@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family:American;
+    src: url("../fonts/american.woff");
+}
+
 a
 {
     text-decoration:none;
@@ -22,6 +28,13 @@ nav
     width:45%;
 }
 
+header
+{
+    font-family:American;
+    text-align:center;
+    font-size: 2em;
+}
+
 footer
 {
     border-radius:.2em;
@@ -35,7 +48,8 @@ footer
 
 body
 {
-    background-image: url("../images/background.jpg")
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
 }
 
 .social_links
@@ -45,14 +59,28 @@ body
 
 #outerContainer
 {
-    background-color:#0000A3;
+    background-color:#E0E0E0;
     border:1px black solid;
     width:80%;
     margin-top:1em;
     margin-bottom:1em;
-    margin-left:5em;
+    margin-left:auto;
+    margin-right:auto;
     padding: 1em;
-    color:#cccccc;
+    color:black;
+}
+
+#outerContainer h1
+{
+    text-align:center
+}
+#featuredItem
+{
+    max-width:95%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid blue .5em;
 }
 
 #contactInfo p
