@@ -46,6 +46,19 @@ footer
     text-align:center;
 }
 
+table h1, h2
+{
+    text-align:center;    
+}
+
+table
+{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    
+}
+
 body
 {
     background-image: url("../images/background.jpg");
@@ -59,7 +72,23 @@ body
 
 #outerContainer
 {
-    background-color:aliceblue;
+   /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(aliceblue), to(#0000BA));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, aliceblue, #0000BA);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, aliceblue, #0000BA);
+
+  /* IE 10 */
     border:1px black solid;
     width:80%;
     margin-top:1em;
@@ -67,7 +96,7 @@ body
     margin-left:auto;
     margin-right:auto;
     padding: 1em;
-    color:#0000ba;
+    color:black;
 }
 
 #outerContainer h1
