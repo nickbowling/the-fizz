@@ -67,7 +67,7 @@ body
     margin-left:auto;
     margin-right:auto;
     padding: 1em;
-    color:black;
+    color:#0000ba;
 }
 
 #outerContainer h1
@@ -76,7 +76,7 @@ body
 }
 #featuredItem
 {
-    max-width:95%;
+    max-width:75%;
     display:block;
     margin-left:auto;
     margin-right:auto;
