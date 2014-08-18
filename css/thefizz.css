@@ -15,7 +15,6 @@ nav
     border: 2px black solid;
     border-radius:.2em;
     color:black;
-    height:1.25em;
     background-color:#b80000;
     text-align:center;
     margin-left:auto;
@@ -25,7 +24,10 @@ nav
 
 footer
 {
-    width:90%;
+    border-radius:.2em;
+    border:2px black solid;
+    background-color:#b80000;
+    width:10%;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
@@ -42,6 +44,7 @@ body
     border:1px black solid;
     width:80%;
     margin-top:1em;
+    margin-bottom:1em;
     margin-left:5em;
     padding-left:1em;
     padding-top:1em;
