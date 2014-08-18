@@ -1,9 +1,26 @@
+a
+{
+    text-decoration:none;
+    color:black;
+}
+
+a:visited
+{
+    color:black;
+}
+
 nav
 {
-    height:5em;
-    background-color:b8000;
-    width:50%;
+    font-size:2.5em;
+    border: 2px black solid;
+    border-radius:.2em;
+    color:black;
+    height:1.25em;
+    background-color:#b80000;
     text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:45%;
 }
 
 footer
@@ -16,17 +33,19 @@ footer
 
 body
 {
-    background-image: url("../images/merica.jpg");
+    background-color:#F9F9F9;
 }
 
 #outerContainer
 {
-    background-color:#004ab8;
-    height: 500px;
+    background-color:#0000A3;
     border:1px black solid;
     width:80%;
+    margin-top:1em;
     margin-left:5em;
-    font-color:white;
+    padding-left:1em;
+    padding-top:1em;
+    color:white;
 }
 
 #contactInfo p
