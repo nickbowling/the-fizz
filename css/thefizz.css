@@ -121,6 +121,11 @@ color:#2EB8E6;
     padding-bottom:6.3em;
     color:black;
 }
+.row div
+{
+    display: inline-block;
+    margin-left: 4em;
+}
 #outerContainer
 {
    /* fallback */
