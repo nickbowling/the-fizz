@@ -59,15 +59,18 @@ table h1, h2
 table
 {
     margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    
+    margin-right:auto;    
 }
 
 body
 {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
+}
+
+hr
+{
+color:#2EB8E6;    
 }
 
 .social_links
