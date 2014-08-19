@@ -153,12 +153,12 @@ color:#2EB8E6;
 }
 #featuredDrink
 {
-    max-height:40em;
+    height:30em;
     border: transparent .5em;
 }
 #featuredFood
 {
-    max-height:40em;
+    height:30em;
     border: transparent .5em;
 }
 
