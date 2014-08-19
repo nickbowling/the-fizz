@@ -171,3 +171,16 @@ color:#2EB8E6;
 {
     display:inline-block;
 }
+
+@media (max-width: 643px)
+{
+    #featuredDrink
+    {
+        height:10em;
+    }
+    
+    #featuredFood
+    {
+        height:10em;
+    }
+}
