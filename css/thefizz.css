@@ -125,6 +125,7 @@ color:#2EB8E6;
     display: inline-block;
     margin-left: 4em;
 }
+
 #outerContainer
 {
    /* fallback */
@@ -191,4 +192,9 @@ color:#2EB8E6;
     {
         height:10em;
     }
+    #map
+    {
+        width: 10em;
+    }
+
 }
