@@ -37,6 +37,7 @@ header
 
 header h1
 {
+    color:black;
     text-shadow: .1em .1em #4b4b4b;  
 }
 
@@ -49,6 +50,7 @@ footer
     margin-left:auto;
     margin-right:auto;
     text-align:center;
+    color:black;
 }
 
 table h1, h2
@@ -82,8 +84,35 @@ color:#2EB8E6;
 {
     border: transparent 1em;
 }
-
 .container
+{
+       /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(aliceblue), to(#0000BA));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, aliceblue, #0000BA);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, aliceblue, #0000BA);
+
+  /* IE 10 */
+    border:1px black solid;
+    width:80%;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1em;
+    color:black;
+}
+#outerContainer
 {
    /* fallback */
   background-color: #2F2727;
@@ -119,20 +148,12 @@ color:#2EB8E6;
 #featuredDrink
 {
     max-height:40em;
-    max-width:30%;
-    display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
-    border: solid black .5em;
+    border: transparent .5em;
 }
 #featuredFood
 {
     max-height:40em;
-    max-width:60%;
-    display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
-    border: solid grey .5em;
+    border: transparent .5em;
 }
 
 #contactInfo p
