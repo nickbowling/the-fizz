@@ -30,7 +30,7 @@ nav
     text-align:center;
     margin-left:auto;
     margin-right:auto;
-    width:45%;
+    width:100%;
 }
 
 header
@@ -52,7 +52,7 @@ footer
     border-radius:.2em;
     border:2px black solid;
     background-color:#660000;
-    width:45%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
