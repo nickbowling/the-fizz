@@ -83,7 +83,7 @@ color:#2EB8E6;
     border: transparent 1em;
 }
 
-#outerContainer
+.container
 {
    /* fallback */
   background-color: #2F2727;
