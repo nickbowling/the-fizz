@@ -151,8 +151,10 @@ color:#2EB8E6;
     margin-bottom:0;
     margin-left:auto;
     margin-right:auto;
-    padding-top:7em;
-    padding-bottom:7em;
+    padding-top:5em;
+    padding-bottom:5em;
+    padding-left:2em;
+    padding-right:2em;
     color:black;
 }
 
